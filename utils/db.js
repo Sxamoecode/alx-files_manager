@@ -42,7 +42,7 @@ class DBClient {
   }
 
   /**
-   * Calculates the number of files in the 'files' collection in the database.
+   * Calculates number of files in the 'files' collection on database.
    *
    * @return {Promise<number>} Returns a Promise that resolves to the number of
    * files in the 'files' collection.
