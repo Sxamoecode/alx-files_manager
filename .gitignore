@@ -1,5 +1,3 @@
 node_modules
-utils/redis_main.js
 package-lock.json
 .env
-utils/mongo_main.js
