@@ -17,7 +17,7 @@ class RedisClient {
       this.isConnected = true;
     });
 
-    //this.asyncSetX = promisify(this.client.setex).bind(this.client);
+    this.asyncSetX = promisify(this.client.setex).bind(this.client);
     this.asyncGet = promisify(this.client.get).bind(this.client);
     this.asyncDel = promisify(this.client.del).bind(this.client);
     this.asyncExpire = promisify(this.client.expire).bind(this.client);
